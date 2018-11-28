@@ -1,6 +1,11 @@
-#!/bin/bash
-
-command=`basename $0`
-
-echo starting $command...
-mvn clean compile exec:java -Dexec.mainClass="org.apache.hadoop.contrib.ftp.HdfsOverFtpServer"
+{
+   "serverUri":https://222.85.91.56:54312/Boce,
+   "socketproxy":[
+           {"proxyip":36.7.172.12,
+           "proxyport":1080
+           },
+           {"proxyip":61.135.155.82,
+           "proxyport":1080
+           },
+          ]
+}
